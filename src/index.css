@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FAF8F5;
+    color: #1c1917;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, .font-editorial {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar hiding for horizontal brand carousels & chip strips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Touch action optimization for gesture swipe cards */
+.swipe-card {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}

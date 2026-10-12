@@ -1,0 +1,6 @@
+{
+  "name": "Shazlo - Swipe to Style",
+  "description": "Mobile-first fashion discovery application featuring intuitive swipe gestures, personalized recommendations, digital closet, cart intent tracking, and brand catalog governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
