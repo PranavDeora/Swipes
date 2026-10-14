@@ -1,4 +1,12 @@
 import { Product, BrandInfo } from '../types';
+import reformationDress from '../assets/images/fashion_reformation_dress_1791784818150.jpg';
+import minimalistBlazer from '../assets/images/fashion_minimalist_blazer_1791784836700.jpg';
+import streetwearLeather from '../assets/images/fashion_streetwear_leather_1791784849080.jpg';
+import silkMidiSkirt from '../assets/images/fashion_silk_midi_skirt_1791784861333.jpg';
+import knitCardigan from '../assets/images/fashion_knit_cardigan_1791784872717.jpg';
+import wideTrousers from '../assets/images/fashion_wide_trousers_1791784905750.jpg';
+import leatherBag from '../assets/images/fashion_leather_bag_1791784918012.jpg';
+import trenchCoat from '../assets/images/fashion_trench_coat_1791784928828.jpg';
 
 export const BRANDS: BrandInfo[] = [
   {
@@ -84,7 +92,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Dresses',
     aesthetic: 'Quiet Luxury',
-    imageUrl: '/src/assets/images/fashion_reformation_dress_1791784818150.jpg',
+    imageUrl: reformationDress,
     material: '100% Mulberry Silk Charmeuse (19mm weight)',
     careInstructions: 'Dry clean only. Steam on low heat inside-out.',
     returnPolicy: 'Free 30-day domestic returns with prepaid return shipping label.',
@@ -117,7 +125,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Outerwear',
     aesthetic: 'Minimalist',
-    imageUrl: '/src/assets/images/fashion_minimalist_blazer_1791784836700.jpg',
+    imageUrl: minimalistBlazer,
     material: '100% French Flax Linen, cupro viscose interior lining',
     careInstructions: 'Dry clean only. Light iron or press cloth.',
     returnPolicy: '14-day refund or 30-day merchandise credit in original condition.',
@@ -150,7 +158,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Outerwear',
     aesthetic: 'Streetwear',
-    imageUrl: '/src/assets/images/fashion_streetwear_leather_1791784849080.jpg',
+    imageUrl: streetwearLeather,
     material: '100% Genuine Full-Grain Distressed Cowhide Leather, ribbed wool cuffs',
     careInstructions: 'Specialist leather clean only. Store on shaped hanger.',
     returnPolicy: '30-day unworn returns in original branded dust bag packaging.',
@@ -183,7 +191,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Bottoms',
     aesthetic: 'Parisian Chic',
-    imageUrl: '/src/assets/images/fashion_silk_midi_skirt_1791784861333.jpg',
+    imageUrl: silkMidiSkirt,
     material: '92% Heavy Weight Acetate Satin, 8% Elastane',
     careInstructions: 'Hand wash cold or gentle machine cycle. Dry flat away from direct sun.',
     returnPolicy: '14-day exchange or store credit for EU and International deliveries.',
@@ -216,7 +224,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Knitwear',
     aesthetic: 'Quiet Luxury',
-    imageUrl: '/src/assets/images/fashion_knit_cardigan_1791784872717.jpg',
+    imageUrl: knitCardigan,
     material: '100% GOTS-Certified Mongolian Cashmere (7-gauge rib)',
     careInstructions: 'Hand wash with cashmere shampoo. Lay flat on dry towel to dry.',
     returnPolicy: '30-day in-store or postal return with tags attached.',
@@ -249,7 +257,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Bottoms',
     aesthetic: 'Tailored Classic',
-    imageUrl: '/src/assets/images/fashion_wide_trousers_1791784905750.jpg',
+    imageUrl: wideTrousers,
     material: '98% Italian Virgin Wool, 2% Elastane for natural give',
     careInstructions: 'Dry clean only. Medium iron with press cloth.',
     returnPolicy: '14-day online return window with complimentary postal return label.',
@@ -282,7 +290,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Accessories',
     aesthetic: 'Quiet Luxury',
-    imageUrl: '/src/assets/images/fashion_leather_bag_1791784918012.jpg',
+    imageUrl: leatherBag,
     material: '100% Smooth Italian Calfskin Leather, gold-finish zinc alloy hardware',
     careInstructions: 'Wipe with soft micro-fiber cloth. Store in cotton dust bag.',
     returnPolicy: '14-day international returns with security ribbon intact.',
@@ -315,7 +323,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Outerwear',
     aesthetic: 'Tailored Classic',
-    imageUrl: '/src/assets/images/fashion_trench_coat_1791784928828.jpg',
+    imageUrl: trenchCoat,
     material: '100% Water-Resistant Cotton Gabardine, horn buckles',
     careInstructions: 'Dry clean only. Reproof water-repellent coating annually.',
     returnPolicy: '30-day return policy on unworn items with tags attached.',
@@ -349,7 +357,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Tops',
     aesthetic: 'Romantic / Bohemian',
-    imageUrl: '/src/assets/images/fashion_reformation_dress_1791784818150.jpg',
+    imageUrl: reformationDress,
     material: '100% Cotton Poplin, structured boning through bodice',
     careInstructions: 'Cold gentle hand wash. Do not tumble dry.',
     returnPolicy: '14-day store credit on full-price merchandise.',
@@ -381,7 +389,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Tops',
     aesthetic: 'Y2K / Indie',
-    imageUrl: '/src/assets/images/fashion_silk_midi_skirt_1791784861333.jpg',
+    imageUrl: silkMidiSkirt,
     material: '80% Viscose, 20% Polyamide stretch knit yarn',
     careInstructions: 'Hand wash cold with mild detergent.',
     returnPolicy: '14-day exchange or refund for unused items.',
@@ -413,7 +421,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     currency: '$',
     category: 'Tops',
     aesthetic: 'Streetwear',
-    imageUrl: '/src/assets/images/fashion_streetwear_leather_1791784849080.jpg',
+    imageUrl: streetwearLeather,
     material: '100% Polyester Mesh (Failed sustainable threshold test)',
     careInstructions: 'Machine wash delicate cold.',
     returnPolicy: 'Final sale item.',
