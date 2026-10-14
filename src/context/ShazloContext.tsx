@@ -76,7 +76,16 @@ export const ShazloProvider: React.FC<{ children: ReactNode }> = ({ children }) 
   const [allProducts, setAllProducts] = useState<Product[]>(() => {
     try {
       const saved = localStorage.getItem(`${LOCAL_STORAGE_KEY}_products`);
-      if (saved) return JSON.parse(saved);
+      if (saved) {
+        const savedProducts = JSON.parse(saved) as Product[];
+        // Refresh bundled image URLs for catalog items saved before Vite asset imports were added.
+        return savedProducts.map(savedProduct => {
+          const catalogProduct = INITIAL_PRODUCTS.find(product => product.id === savedProduct.id);
+          return catalogProduct
+            ? { ...savedProduct, imageUrl: catalogProduct.imageUrl }
+            : savedProduct;
+        });
+      }
     } catch (e) {
       console.error(e);
     }
